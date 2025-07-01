@@ -5,7 +5,7 @@
 - look into metrics to compare models:
   - Effective FLOPs (EFLOPS): Accounts for hardware which can operate more sparsely and avoid multiplying zeros in matrix multiplication.
   - Synaptic Operations Per Second (SOPS): Measures specific neurmorphic operations but maybe not so useful for comparing SNNs to ANNs.
-- it would be interesting to write models in an asynchronous HDL (see below table for possibilities). it seems software-hardware co-design are fundamental to neuromorphic systems and really optimizing systems (does this count as mono-design or something?)
+- it would be interesting to write models in an asynchronous HDL (see below table for possibilities) for an FPAA. it seems software-hardware co-design are fundamental to neuromorphic systems and really optimizing systems (does this count as mono-design or something?)
 
 |Layer|Typical user|Example tools / languages|How it reaches silicon|
 |---|---|---|---|
