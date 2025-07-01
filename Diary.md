@@ -1,0 +1,116 @@
+### Thoughts
+
+- look into "Multilayer Feedforward Small-World Networks"
+- look into "Graph Reservoir Architecture"
+- look into metrics to compare models:
+  - Effective FLOPs (EFLOPS): Accounts for hardware which can operate more sparsely and avoid multiplying zeros in matrix multiplication.
+  - Synaptic Operations Per Second (SOPS): Measures specific neurmorphic operations but maybe not so useful for comparing SNNs to ANNs.
+- it would be interesting to write models in an asynchronous HDL (see below table for possibilities). it seems software-hardware co-design are fundamental to neuromorphic systems and really optimizing systems (does this count as mono-design or something?)
+
+|Layer|Typical user|Example tools / languages|How it reaches silicon|
+|---|---|---|---|
+|**Graphical block level**|Algorithm or ML researcher|- Scilab/Xcos palette in the open-source _OpenFPAA_ VM[4](https://hasler.ece.gatech.edu/FPAAtool/index.html) - AnadigmDesigner 2 CAM drag-and-drop environment for Anadigm chips[5](https://anadigm.com/_doc/UM020800-U001.pdf)[6](https://www.electronicdesign.com/news/article/21186889/programmable-analog-design-software)|GUI → modified VPR place-&-route → _.swcs_ switch-list loaded over USB[3](https://hasler.ece.gatech.edu/SoCFPAA/Remote_system_paper.pdf)|
+|**High-level script / DSL**|Embedded & ML engineer|- Python-based _ASHES_ and RASP30 text flow (Python → Verilog → BLIF)[7](https://afolabiige.me/assets/ORS_2023_2024.pdf) - MATLAB/Simulink export to Xcos for legacy flows[4](https://hasler.ece.gatech.edu/FPAAtool/index.html)|Script generates BLIF netlist → router → programming file|
+|**Analog HDLs**|Mixed-signal designer|- **VHDL-AMS** behavioural blocks automatically decomposed and synthesised to FPAA macrocells[8](https://dl.acm.org/doi/10.1145/605440.605445)[9](https://eprints.soton.ac.uk/465792/1/996904.pdf) - **Verilog-A / Verilog-AMS** models; open compilers such as _OpenVAF_ exist[10](https://github.com/pascalkuthe/OpenVAF)|HDL → behavioural synthesis (function decomposition, macrocell selection, placement & routing)[8](https://dl.acm.org/doi/10.1145/605440.605445)|
+|**Spice-level netlist**|Circuit specialist|Any SPICE dialect exported by the above tools or hand-written|Direct mapping into CAB primitives by the compiler|
+
+### Meeting 01/07/2027
+
+- Likely literature review submission will be in
+- December and progression meeting will be in January.
+- Share some notes
+- check I have permissions in the GitHub group
+- using overleaf with uni allows github sync and offline
+- HPC resources for York https://vikingdocs.york.ac.uk/. Your Viking project code is "elec-apnn-2019". Please forward the code to members of your group/project, and ask them to complete the user account application form: https://goo.gl/forms/0Uhl5sIOhFlYtZc63 Please make sure you are logged into Google with your University account before trying to complete this form. You will also need to complete the form if you intend to use Viking yourself. The documentation for Viking can be found at: https://wiki.york.ac.uk/display/RHPC/VK1%29+How+to+access+Viking
+
+### Thoughts
+
+- Justify questions in literature review and link to papers
+- Can draw from error checking
+- Chip vs monolithic for detecting just sensor vs actuator degradation
+- Neuronal diversity fitting or optimization might take inspiration from KANs
+- The thesis guides the reader to the point they can appreciate and understand the results
+- Background describes methods so someone not in the specific field would understand
+- Literature report builds up to this maybe only doing 1/3 page
+- Think about initial experiments
+- Noise/degradation is a dimension (it can be random or a dropout or an adversarial network)
+- Should talk about risks and ethnical considerations in viva
+- He's away next week
+- Can have longer meeting if I have something specific to discuss
+- lookup on policy vs off policy and more reinforcement learning stuff
+
+### 10/06/2025
+
+- How to balance using frameworks vs writing from scratch?
+- Did he read the paper on reinforcement learning I asked him about?
+- Best way to avoid slowdown is to just write each SNN in Rust from scratch but as a `main.rs` and just copy and pasting stuff but not over designing some shared functionality
+- martin recommended sensor fusion as interesting area, like blending accelerometer with DVS to detect movement in background from camera movement "filtering sensors (e.g. DVS)" can also investigate where in a network sensors begin to merge or interfere with each other
+- martin said create hierarchy of questions to figure out experiments, chapters and overall thesis and wider field questions like "can SNNs go further than DNNs"
+- delay/feedback/attention mechanisms are interesting, what are the different affects, is more recurrence better? Does this just count as more memory? Is the implications recurrence of SNNs a key advantage over DNNs. If all are turing complete whats the most efficient model for a given substrate, a map of neural compute models over substrates is interesting, "pushing as much computation into the physics"
+- getting metrics for how complex or recurrent a model is is difficult
+
+### 20/05/2025
+
+The paper I asked for feedback on seems to make a bold and overly confident conclusion upon something that is difficult to justify, it would better to explore this topic in more depth both in terms of complexity and in terms of doing a more thorough exploration of the parameter space to make conclusions more fairly.
+
+- PhD needs to be "novel" (cover something people haven't covered enough etc.)
+- look more into evolving spiking neural networks: and dynamic evolving spiking neural networks
+- an idea is looking at simpler vs complex sensors and less vs more biologically plausible sensors and how they interact with models. power, complexity, bandwidth
+- an interesting idea is that data penetrates the network different amounts
+- a fun idea is a force-feedback but not based on physical feedback but based on a model feedback
+- include in notes thoughts on quality of the paper
+
+### 06/05/2025
+
+- what does he think of the 2024 paper on IsaacGym DRL since my thesis could end up looking like this. Send him paper https://www.nature.com/articles/s41598-024-77779-8. Recommendation create separately smaller things that are foundational components. Use small experiments to look at how to analyse data (e.g. confusion matrix).
+- writing from scratch using cross-link exhibition inhibition neurons, sometimes spontaneous spike rate to give constant excitation to mimic bias in DNNs. A morse code would be a more complex interesting example. Maybe greycode might be better/easier but less interesting. Dive bit deeper on XOR maybe from scratch maybe manually maybe different Encoding, different learnings with basic spikeprop.
+- play either robot simulator doing basic algorithm (maze following/obstacle avoidance) some are playerstage, gazebo, vrep, mujocu, isaacsim
+- formal supervision is just uni check that supervision is happening so just log meeting that was closest to date in email, formal is just regular bussiness, TAP are more serious after 3 then every 6, progression meetings are most serious every year
+- experimentation could a SNN learn more human-like (e.g. mnist example that humans can't identify)
+- during my thesis would I publish multiple papers, does the whole thesis get published? Think of questions and experiments, with conferences and sub-questions and sub-experiments. You don't need papers to pass PhD but they derisk thesis, demonstrating value and a way to hedge against examiner having a negative view or lack of novelty
+- literature review would involve a appraisal and reading paper and clustering (e.g. why do 1 out of 20 use transfer learning is this a gap or a difficult problem, is this under-explored)
+- what does the academic career path look like are there any resources he recommends that cover this and stuff to do to set myself up for it if I want
+
+### 29/04/2025
+
+- Controller problem Vs control problem
+- Don't need novel idea but idea of where to drive to find novel problems
+- EB sensors vs classical sensors or their combination and integration into some kind of sensor matrix l, object detection is less investigated with EB cameras
+- you could construct an environment that favors EB sensors and handicaps frame based sensors
+- picking wider benchmark thing this should be fine as long as constantly asking why, emotion of thinking this sort of benchmark/comparison is bit si interesting can be a little ignored for now
+- things to explore, EB sensors uses cases and why, wider computer vision with SNNs, computer vision field is too vast to cover
+- look at YOLO thing, see if hyst having spiking version is good
+
+### 22/04/2025
+
+Maybe an approach to handling learning things of greater complexity is a cost function that grows in complexity over time
+
+This adaptive/evolving cost function could be intrinsically tied to our imagination, giving us a way to both accelerate and reinforce learning while maybe helping repeat the memory to redistribute learning to areas that are slower to adapt. You can imagine we can consciously very quickly understand how we need to move our hands to play a piece of music, but it takes time for us to subconsciously learn how to move our hands to actually play the music.
+
+This could also indicate different parts have different learning rates, possibly there is a foundation part with zero learning rate.
+
+There is also an idea that as we learn things and integrate these into our memory our brain adjusts these memories when it learns related things, could we have memory of similar things differently encoded at the same time?
+
+There is an idea of "generate memory" which actually reimagines our memories using our new sub-systems to re-encode or adjust older memories. Does this happen only when they are access or is our brain constantly shuffling around our memories? (possibly to optimize space)
+
+### 08/04/2025
+
+- Nnmnist data set
+- Data fusion
+- Encoding
+- Try looking into sensors and interfacing micro circuits
+- How do different sensors and circuits compete with each other
+- How would reflexes compete with consciousness (sub circuit with main circuit)
+- Would a drone get phantom limb syndrome
+- Look at typical nn transformers
+
+### 01/04/2025
+
+phd papers may be easier
+
+- look at where it's useful why it's useful and what field it's useful
+- neuromorphic workshop at end of may he will send link
+- do shortlist based on phd objectives and what fits
+- look at difference between having separate chips for training and learning vs online
+- dendritic computing
+- rewrite proposal into abstract for event
