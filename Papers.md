@@ -49,11 +49,13 @@
 | Energy Aware Development of Neuromorphic Implantables: From Metrics to Action | |
 | Real-time Scalable Cortical Computing at 46 Giga-Synaptic OPS/Watt with ∼100× Speedup in Time-to-Solution and ∼100,000× Reduction in Energy-to-Solution | |
 | Ultra-low-power Image Classification on Neuromorphic Hardware | |
-| # Single neuromorphic memristor closely emulates multiple synaptic mechanisms for energy efficient neural networks | |
-| # A Novel Memristive Multilayer Feedforward Small-World Neural Network with Its Applications in PID Control | |
-| # Reservoir computing with a random memristor crossbar array | |
-| # Dynamic memristor-based reservoir computing for high-efficiency temporal signal processing | |
-| # Spatiotemporal Data Processing with Memristor Crossbar-Array-Based Graph Reservoir | |
+| Single neuromorphic memristor closely emulates multiple synaptic mechanisms for energy efficient neural networks | |
+| A Novel Memristive Multilayer Feedforward Small-World Neural Network with Its Applications in PID Control | |
+| Reservoir computing with a random memristor crossbar array | |
+| Dynamic memristor-based reservoir computing for high-efficiency temporal signal processing | |
+| Spatiotemporal Data Processing with Memristor Crossbar-Array-Based Graph Reservoir | |
 | Analog High-Level Synthesis for Field Programmable Analog Arrays | |
-| Analog High-Level Synthesis for Field Programmable Analog Arrays | |
+| Large-Scale Field-Programmable Analog Arrays | |
+| Rapid prototyping mixed-signal development kit for tactile neural computing | |
+| [Memristive field‐programmable analog arrays for analog computing](https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202206648) | |
 | Regional specialization of movement encoding across the primate sensorimotor cortex | |
