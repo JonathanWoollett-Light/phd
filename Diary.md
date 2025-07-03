@@ -6,6 +6,18 @@
   - Effective FLOPs (EFLOPS): Accounts for hardware which can operate more sparsely and avoid multiplying zeros in matrix multiplication.
   - Synaptic Operations Per Second (SOPS): Measures specific neurmorphic operations but maybe not so useful for comparing SNNs to ANNs.
 
+#### Experiment dimensions
+
+I think the hardware platform is just another categorical dimension for experimentation
+
+Some charts that might be cool to have at the end of my thesis might be:
+
+- having a scatterplot where the x axis is real-time, the y axis is ops, the points are the models labelled with their categorical data (e.g. `CPU-BPTT-LIF..` or `FPGA-STDP`.., `memFPAA-RES..` etc.) (e.g. circle->CPU, square->GPU, triangle->FPGA) from this we can see:
+  - the models in the upper half represent models which have potential for further hardware optimization
+  - the models in right half represent models which can be used today
+- a bar chart with the x axis being models labelled with their categorical data, grouped and coloured by their hardware platform and the y axis being power consumption, from this we can see:
+  - the power efficiency of different hardware platforms and the models that take advantage of this
+
 #### Writing models
 
 For the most idealistic benchmarks it would be good to see each model as if it where implemented on custom hardware that allows it to be efficient. GPUs contain custom hardware for ANNs so it seems unfair to compare SNNs in this context without their custom hardware. In this context I beleive real-time efficiency is less important than the operational efficiency (FLOPs, eFLOPs, SOPS, etc.) as the fundemental operational efficiency can give a better indication of potential future performance for models which don't currently have optimized or optimal hardware (e.g. most neurmorphic models). Admittedly I might just be thinking this as it would more likely lead to an outcome that shows neurmrohpic models as better (if its harder to make optimal hardware maybe its unfair to assume optimal hardware, given this also worth considering real-time with current hardware).
