@@ -8,7 +8,7 @@
 
 #### Writing models
 
-For the most idealistic benchmarks it would be good to see each model as if it where implemented on custom hardware that allows it to be efficient. GPUs contain custom hardware for ANNs so it seems unfair to compare SNNs in this context without their custom hardware.
+For the most idealistic benchmarks it would be good to see each model as if it where implemented on custom hardware that allows it to be efficient. GPUs contain custom hardware for ANNs so it seems unfair to compare SNNs in this context without their custom hardware. In this context I beleive real-time efficiency is less important than the operational efficiency (FLOPs, eFLOPs, SOPS, etc.) as the fundemental operational efficiency can give a better indication of potential future performance for models which don't currently have optimized or optimal hardware (e.g. most neurmorphic models). Admittedly I might just be thinking this as it would more likely lead to an outcome that shows neurmrohpic models as better (if its harder to make optimal hardware maybe its unfair to assume optimal hardware, given this also worth considering real-time with current hardware).
 
 An interesting approach might be writing models in whichever formats offers the best ability to estimate their optimal performance.
 
