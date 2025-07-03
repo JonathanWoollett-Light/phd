@@ -5,9 +5,19 @@
 - look into metrics to compare models:
   - Effective FLOPs (EFLOPS): Accounts for hardware which can operate more sparsely and avoid multiplying zeros in matrix multiplication.
   - Synaptic Operations Per Second (SOPS): Measures specific neurmorphic operations but maybe not so useful for comparing SNNs to ANNs.
-- it would be interesting to write models in an asynchronous HDL (see below table for possibilities) for an FPAA. it seems software-hardware co-design are fundamental to neuromorphic systems and really optimizing systems (does this count as mono-design or something?)
-  it would also be interesting to use a memFPAA to test memristive functionality
-  state of art FPAA for £3,356 (https://okikadevices.com/collections/socfpaa) maybe get access on loan or through uni
+
+#### Writing models
+
+For the most idealistic benchmarks it would be good to see each model as if it where implemented on custom hardware that allows it to be efficient. GPUs contain custom hardware for ANNs so it seems unfair to compare SNNs in this context without their custom hardware.
+
+An interesting approach might be writing models in whichever formats offers the best ability to estimate their optimal performance.
+
+This may be a HDL or an asyncrhonsous HDL for an FPGA or FPAA. I like this since it seems software-hardware co-design are fundamental to neuromorphic systems and really optimizing systems (does this count as mono-design or something?)
+It would also be interesting to see if I can use a memFPAA to test memristive functionality.
+
+state of art FPAA for £3,356 (https://okikadevices.com/collections/socfpaa) maybe get access on loan or through uni
+
+a table on asynchronous HDLs:
 
 |Layer|Typical user|Example tools / languages|How it reaches silicon|
 |---|---|---|---|
