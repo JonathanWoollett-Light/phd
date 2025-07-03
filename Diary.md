@@ -15,7 +15,9 @@ An interesting approach might be writing models in whichever formats offers the 
 This may be a HDL or an asyncrhonsous HDL for an FPGA or FPAA. I like this since it seems software-hardware co-design are fundamental to neuromorphic systems and really optimizing systems (does this count as mono-design or something?)
 It would also be interesting to see if I can use a memFPAA to test memristive functionality.
 
-state of art FPAA for £3,356 (https://okikadevices.com/collections/socfpaa) maybe get access on loan or through uni
+FPAA for £3,356 (https://okikadevices.com/collections/socfpaa, https://okikadevices.com/collections/otc2902k-soc-fpaa-development-board/products/otc2902k-development-board-for-polymorphic-fpaa-with-56-cabs-42-clbs-and-msp430-microcontroller) maybe get access on loan or through uni
+
+> For lower university and student pricing, please contact Okika Devices sales team at sales@okikadevices.com
 
 a table on asynchronous HDLs:
 
