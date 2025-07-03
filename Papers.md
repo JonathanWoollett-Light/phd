@@ -54,7 +54,6 @@
 | Reservoir computing with a random memristor crossbar array | |
 | Dynamic memristor-based reservoir computing for high-efficiency temporal signal processing | |
 | Spatiotemporal Data Processing with Memristor Crossbar-Array-Based Graph Reservoir | |
-| Analog High-Level Synthesis for Field Programmable Analog Arrays | |
 | Large-Scale Field-Programmable Analog Arrays | |
 | Rapid prototyping mixed-signal development kit for tactile neural computing | |
 | [Memristive field‐programmable analog arrays for analog computing](https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202206648) | |
