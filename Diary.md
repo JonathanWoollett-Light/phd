@@ -5,6 +5,8 @@
 - look into metrics to compare models:
   - Effective FLOPs (EFLOPS): Accounts for hardware which can operate more sparsely and avoid multiplying zeros in matrix multiplication.
   - Synaptic Operations Per Second (SOPS): Measures specific neurmorphic operations but maybe not so useful for comparing SNNs to ANNs.
+- It would be useful to reproduce the results of **Memristive Field-Programmable Analog Arrays for Analog Computing** to better understand memFPAAs.
+- are there any datasets like st-mnist but instead of giving a trace of spikes drawing a digit give a trace of non-binary floating point values (like voltages from a touchpad)
 
 #### Experiment dimensions
 

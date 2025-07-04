@@ -55,6 +55,7 @@
 | Dynamic memristor-based reservoir computing for high-efficiency temporal signal processing | |
 | Spatiotemporal Data Processing with Memristor Crossbar-Array-Based Graph Reservoir | |
 | Large-Scale Field-Programmable Analog Arrays | |
-| Rapid prototyping mixed-signal development kit for tactile neural computing | |
-| [Memristive field‐programmable analog arrays for analog computing](https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202206648) | |
-| Regional specialization of movement encoding across the primate sensorimotor cortex | |
+| A cluster of fpaas to recognize images using neural networks | |
+| A Fully integrated memristor and its application on the scroll controllable hyperchaotic system | |
+| Implementation of synapses with hodgkin huxley neurons on the fpaa | |
+
