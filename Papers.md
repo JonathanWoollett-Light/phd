@@ -58,4 +58,4 @@
 | A cluster of fpaas to recognize images using neural networks | |
 | A Fully integrated memristor and its application on the scroll controllable hyperchaotic system | |
 | Implementation of synapses with hodgkin huxley neurons on the fpaa | |
-
+| Self-supervised predictive learning accounts for cortical layer-specificity| |
