@@ -45,7 +45,6 @@
 | Automated Progressive Learning for Efficient Training of Vision Transformers | |
 | https://neurosciencenews.com/ai-child-language-29333/ | |
 | Locational Encoding with Neuromorphic Systems (LENS) | https://lensvpr.github.io/ |
-| # NeuroBench: A Framework for Benchmarking Neuromorphic Computing Algorithms and Systems | |
 | Energy Aware Development of Neuromorphic Implantables: From Metrics to Action | |
 | Real-time Scalable Cortical Computing at 46 Giga-Synaptic OPS/Watt with ∼100× Speedup in Time-to-Solution and ∼100,000× Reduction in Energy-to-Solution | |
 | Ultra-low-power Image Classification on Neuromorphic Hardware | |
@@ -58,4 +57,6 @@
 | A cluster of fpaas to recognize images using neural networks | |
 | A Fully integrated memristor and its application on the scroll controllable hyperchaotic system | |
 | Implementation of synapses with hodgkin huxley neurons on the fpaa | |
+| Opportunities for neuromorphic computing algorithms and applications | discussion on benchmarks for neuromorphic computing |
+| Benchmarks for progress in neuromorphic computing | discussion on benchmarks for neuromorphic computing |
 | Self-supervised predictive learning accounts for cortical layer-specificity| |
