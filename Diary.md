@@ -1,5 +1,6 @@
 ### Thoughts
 
+- i should have CPU implementations of all the algorithms I want to implement to make sure I understand them
 - look into "Multilayer Feedforward Small-World Networks"
 - look into "Graph Reservoir Architecture"
 - look into metrics to compare models:
