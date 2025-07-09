@@ -49,14 +49,13 @@
 | Real-time Scalable Cortical Computing at 46 Giga-Synaptic OPS/Watt with ∼100× Speedup in Time-to-Solution and ∼100,000× Reduction in Energy-to-Solution | |
 | Ultra-low-power Image Classification on Neuromorphic Hardware | |
 | Single neuromorphic memristor closely emulates multiple synaptic mechanisms for energy efficient neural networks | |
-| A Novel Memristive Multilayer Feedforward Small-World Neural Network with Its Applications in PID Control | |
-| Reservoir computing with a random memristor crossbar array | |
 | Dynamic memristor-based reservoir computing for high-efficiency temporal signal processing | |
 | Spatiotemporal Data Processing with Memristor Crossbar-Array-Based Graph Reservoir | |
-| Large-Scale Field-Programmable Analog Arrays | |
 | A cluster of fpaas to recognize images using neural networks | |
 | A Fully integrated memristor and its application on the scroll controllable hyperchaotic system | |
 | Implementation of synapses with hodgkin huxley neurons on the fpaa | |
 | Opportunities for neuromorphic computing algorithms and applications | discussion on benchmarks for neuromorphic computing |
 | Benchmarks for progress in neuromorphic computing | discussion on benchmarks for neuromorphic computing |
 | Self-supervised predictive learning accounts for cortical layer-specificity| |
+| Echo state graph neural networks with analogue random resistive memory arrays | |
+| C. Mead, “Neuromorphic electronic systems,” | |

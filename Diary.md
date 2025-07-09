@@ -7,6 +7,8 @@
   - Synaptic Operations Per Second (SOPS): Measures specific neurmorphic operations but maybe not so useful for comparing SNNs to ANNs.
 - It would be useful to reproduce the results of **Memristive Field-Programmable Analog Arrays for Analog Computing** to better understand memFPAAs.
 - are there any datasets like st-mnist but instead of giving a trace of spikes drawing a digit give a trace of non-binary floating point values (like voltages from a touchpad)
+- if I read about a result in a review (or newer paper) which references the original paper which produced the result how do I credit both the review and the original paper the review references when referencing this result? It seems unfair to not credit the review and the review author/s from which I discovered the result.
+- it would be good to collect a list of online platforms that allow renting accelerators for development or deployment (FPGAs, FPAAs and specialist cards like Loihi)
 
 #### Experiment dimensions
 
