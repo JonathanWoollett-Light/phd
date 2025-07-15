@@ -59,3 +59,4 @@
 | Self-supervised predictive learning accounts for cortical layer-specificity| |
 | Echo state graph neural networks with analogue random resistive memory arrays | |
 | C. Mead, “Neuromorphic electronic systems,” | |
+| EC-SNN: Splitting Deep Spiking Neural Networks for Edge Devices | |
