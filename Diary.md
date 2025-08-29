@@ -1,3 +1,29 @@
+# Diary
+
+### TAP
+
+- Don't say dont need laptop, but rather that can use it differently 
+- maybe add sections to literature describing simulators (isaac sim, mujocu, etc.)
+- can discuss sim2real transfer and this stuff, although Babar isn't excellent
+- are simulators good enough to justify conclusions? need specific simulators and evaluating these simulators, these give estimations.
+- should start on isaac soon, it has steep learning curve (other simulators are pybullet (very simplified)) gazeboo is other low-level sim, although more difficult and fundemental althouughtraditionally very strong. Isaac is mainstream, and mlittle easiers than gazeboo. MuJuCo is another but probably doesn't work for this case as not low level enough.
+- might be difficult to do comparison with sims since it will take long time to learn them.
+- vrap probably not good, is weird, he notes again he prefers gazeboo or isaac sim.
+- there are simulators which have noise and degredation, isaac and gazeboo and vrap support noise features
+- martin: dont need novel real worldness, novelty can be model
+- important to consider papers in field outside pure SNNs
+- martin: usually gaps very specific, good strategy is publishing research in conference along the way, reviews can then help thesis development
+- novelty doesn't come from application or specific robotics model but instead the underlying system
+- **make slides on core concepts e.g. "what is an SNN?" and introduce the field a little and the aspects and points to where novelty should be "here are 3 aspects, novelty will be in this aspect"** big difference between modifying simulatyors and modifiying the model
+- try to make a bit of a story with what exists and what is current and what I want to do, "what", "why", "how" this should be explained in slides (should be general audience (academics but those relatively near in field)) this is important for an external examiners and community feedback. If argument is made about perceived gap, people will give benefit of the doubt.
+- Even if overlap with existing paper, should have good story to justify novelty and have appropriate due-diligence
+- when writing thesis and telling the story of novelty, timeline and causality can often be re-arranged, sometimes manipulate that things I did later, I tell as happening earlier, so thesis isn't a telling of the real world, rather a logical mapping of researching findings and questions into a narrative (literature has same affect)
+- **need to do review supervision form, with babar if issue with supervision, more if I don't want martin to know**
+- martin: can email him on holiday if specific question/concern
+- with internship if I do this, can end up adding time at end of phd to compensate while taking break out
+- should build slides to ease TAP advisor into project, like conference but bit more generic and en-compensating,
+- should look at reality gaps for different simulators and talk about this, they will have done sensor failures and faults/drift/noise. adding to state of art can't be "here is another sensor that's novel" more like apply method in specific novel cases, the nature is different
+
 ### Thoughts
 
 - i should have CPU implementations of all the algorithms I want to implement to make sure I understand them
