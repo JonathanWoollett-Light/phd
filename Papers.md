@@ -60,3 +60,11 @@
 | Echo state graph neural networks with analogue random resistive memory arrays | |
 | C. Mead, “Neuromorphic electronic systems,” | |
 | EC-SNN: Splitting Deep Spiking Neural Networks for Edge Devices | |
+| Programmable liquid-core fibers: Reconfigurable local dispersion control for computationally optimized ultrafast supercontinuum generation | |
+| Integrated electro-optic digital-to-analogue link for efficient computing and arbitrary waveform generation | |
+| Synthetic-domain computing and neural networks using lithium niobate integrated nonlinear phononics | |
+| An automated framework for exploring and learning potential-energy surfaces | |
+| Kolmogorov–Arnold graph neural networks 
+for molecular property prediction | |
+| An ultra energy-efficient hardware platform for neuromorphic computing enabled by 2D-TMD tunnel-FETs | |
+| A guide to artificial intelligence for cancer researchers | |
