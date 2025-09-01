@@ -66,5 +66,4 @@
 | An automated framework for exploring and learning potential-energy surfaces | |
 | Kolmogorov–Arnold graph neural networks 
 for molecular property prediction | |
-| An ultra energy-efficient hardware platform for neuromorphic computing enabled by 2D-TMD tunnel-FETs | |
-| A guide to artificial intelligence for cancer researchers | |
+| Robust Gymnasium: A Unified Modular Benchmark for Robust Reinforcement Learning | |
