@@ -1,5 +1,9 @@
 # Diary
 
+### Thoughts
+
+- look into "large behaviour models"
+
 ### TAP
 
 - Don't say dont need laptop, but rather that can use it differently 
