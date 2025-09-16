@@ -1,5 +1,9 @@
 # Diary
 
+Need polish
+Need restructuring
+Highlight gap related to research question 
+
 ### Thoughts
 
 - look into "large behaviour models"
