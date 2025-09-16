@@ -1,8 +1,20 @@
 # Diary
 
-Need polish
-Need restructuring
-Highlight gap related to research question 
+- Need polish
+- Need restructuring
+- Highlight gap related to research question
+- reshape this to martin
+- analysis of spike and spike interval and neuroacience style metrics and analysis could also be interesting
+- graphs can be useful for getting a feel for a system if even not quantifying
+- on discussion section vs throughout, it would be good to have a discussion section for each subsection (e.g. discussion hardware section etc.)
+- maybe flatten document 1 layer (so paragraph bold heading aren't normal for having another layer)
+- instead of analytical dimensions vs experimental context headers this difference could be highlighted jn the introduction with a brief statement or discussion
+- typical thesis has 9 to 10 chapters
+- can use a little qualifying statement to help describe structure and tables can be useful (but not needed for every header/section)
+- things should be included in the literature review if they are necessary to understand/appreciate the experiments
+- start with simple datasets/benchmarks before growing the dimensions
+- can mentioned things why I choose given simulator (e.g. isaac)
+- setup review supervision meeting with babar
 
 ### Thoughts
 
