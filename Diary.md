@@ -1,5 +1,16 @@
 # Diary
 
+- more explicitly design experiment that is more concrete to make assumptions clear, there is both external noise that is perceived by sensors and noise that might change the network values themselves, this helps counter balance the more exploratory thoughts and conversations 
+- striking a balance between something more tangible and something more ethereal or crazy
+- foundation model or world model needs lots of data but then special models need small amount of data
+- when we dream are we really learning more deeply or simply teaching different parts of us
+- linear regressions is very powerful, look up hypervectors
+- models introspection and world models is interesting, like
+- gus iben did robot evolution work, evaluating the learning process as it occurs to avoid catastrophic events is interesting
+- how can I set up my qualitative ideas in a qauntative way
+- Cellular Automata graph for reservoir computing thesis might be interesting read martin will forward me
+- need to look into review supervision meeting and what's up with that, can email uni (pet pgr admin is best contact) form for meeting will be on york wiki school of pet postgraduate,  staff and pgr, postgraduate researchers, review of supervision form
+- look into if tap meeting are at weird times 2nd tap should be 6 months after 1st, maybe they think I started earlier
 - Mention the dimensions of the experiments but also evaluate them, this evaluation is somewhat missing from the literature currently or atleast it should be improved/expanded
 - It will be very important to differentiate my work from other papers which apply SNNs jn a similar context (e.g. SpikeGym). Keep strong focus on degredation angle and the performance analysis of the internal dynamics of SNNs models in their learning process.
 - The evaluation of the model as it learns is important, a robot learning online or in-situ cannot tolerate catastrophic failures and thus learning must be constrained or guided within safe bounds.
