@@ -1,5 +1,7 @@
 # Diary
 
+- Mention the dimensions of the experiments but also evaluate them, this evaluation is somewhat missing from the literature currently or atleast it should be improved/expanded
+- It will be very important to differentiate my work from other papers which apply SNNs jn a similar context (e.g. SpikeGym). Keep strong focus on degredation angle and the performance analysis of the internal dynamics of SNNs models in their learning process.
 - The evaluation of the model as it learns is important, a robot learning online or in-situ cannot tolerate catastrophic failures and thus learning must be constrained or guided within safe bounds.
 
 # 16/09/2025
