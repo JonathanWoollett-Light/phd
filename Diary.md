@@ -1,5 +1,9 @@
 # Diary
 
+- The evaluation of the model as it learns is important, a robot learning online or in-situ cannot tolerate catastrophic failures and thus learning must be constrained or guided within safe bounds.
+
+# 16/09/2025
+
 - Need polish
 - Need restructuring
 - Highlight gap related to research question

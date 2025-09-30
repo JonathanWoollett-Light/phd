@@ -64,6 +64,5 @@
 | Integrated electro-optic digital-to-analogue link for efficient computing and arbitrary waveform generation | |
 | Synthetic-domain computing and neural networks using lithium niobate integrated nonlinear phononics | |
 | An automated framework for exploring and learning potential-energy surfaces | |
-| Kolmogorov–Arnold graph neural networks 
-for molecular property prediction | |
+| Kolmogorov–Arnold graph neural networks for molecular property prediction | |
 | Robust Gymnasium: A Unified Modular Benchmark for Robust Reinforcement Learning | |
