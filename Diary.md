@@ -1,6 +1,6 @@
 # Diary
 
-- in discussion should I re-reference specific studies to critique them or to backup my discussion? I feel like I dont want to do this, should them being referenced previously in a descriptive way be enough? I mean im not discussing specific papers but rather the field (and it seems just doing "e.g. this paper agrees with me or shows this" is not a strong argument)
+- in discussion should I re-reference specific studies to critique them or to backup my discussion? I feel like I dont want to do this, should them being referenced previously in a descriptive way be enough? I mean im not discussing specific papers but rather the field (and it seems just doing "e.g. these few papers agrees with me or shows this" is not a strong argument)
 - more explicitly design experiment that is more concrete to make assumptions clear, there is both external noise that is perceived by sensors and noise that might change the network values themselves, this helps counter balance the more exploratory thoughts and conversations 
 - striking a balance between something more tangible and something more ethereal or crazy
 - foundation model or world model needs lots of data but then special models need small amount of data
