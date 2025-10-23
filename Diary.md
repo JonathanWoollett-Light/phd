@@ -1,5 +1,13 @@
 # Diary
 
+### 23/10/2025
+
+- would be worth checking snntorch spiky issue with single neuron
+- for a summer internship, a project could be to figure out how to scale maybe some work I have (e.g. network simulation they can then scale it to run on aws).
+- martin wants to have people present a couple slides of their work in future group meetings (maybe i can go through my diary bullet points and describe them).
+
+### Thoughts
+
 - literature review should be spring board for research not just surgery (and discussion sections should create this spring)
 - in discussion should I re-reference specific studies to critique them or to backup my discussion? I feel like I dont want to do this, should them being referenced previously in a descriptive way be enough? I mean im not discussing specific papers but rather the field (and it seems just doing "e.g. these few papers agrees with me or shows this" is not a strong argument)
 - more explicitly design experiment that is more concrete to make assumptions clear, there is both external noise that is perceived by sensors and noise that might change the network values themselves, this helps counter balance the more exploratory thoughts and conversations 
