@@ -1,5 +1,9 @@
 # Diary
 
+### thoughts
+
+- look into openzl
+
 ### 23/10/2025
 
 - would be worth checking snntorch spiky issue with single neuron
