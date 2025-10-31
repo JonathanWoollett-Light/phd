@@ -3,6 +3,7 @@
 ### thoughts
 
 - look into openzl
+- are there any woring qauntam ml models? what similarities might these have to analogue compute in snns
 
 ### 23/10/2025
 
