@@ -5,8 +5,11 @@
 - look into openzl
 - are there any woring qauntam ml models? what similarities might these have to analogue compute in snns
 - extropic AI looks interesting, maybe could run SNN on it https://www.youtube.com/watch?v=Y28JQzS6TlE
-- why is delayed reset good? read papers on this
+- why is delayed reset good? read papers on this.
+https://www.perplexity.ai/search/in-spiking-neural-networks-in-6CDITtq4Sa2fPNnI17R7Vg
 - have different optimizers been tested with SNNs do they have the same effectiveness as with anns (e.g. is adam still generally one of the best).
+- my nn gradient issue
+https://www.perplexity.ai/search/i-have-a-neural-network-librar-TeJwWJGCSaaW7GCNiT82Kg
 
 ### 23/10/2025
 
