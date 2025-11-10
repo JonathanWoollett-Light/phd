@@ -2,6 +2,7 @@
 
 ### thoughts
 
+- am I working hard enough? What are some examples or benchmarks I could use to reality test this.
 - look into openzl
 - are there any woring qauntam ml models? what similarities might these have to analogue compute in snns
 - extropic AI looks interesting, maybe could run SNN on it https://www.youtube.com/watch?v=Y28JQzS6TlE
