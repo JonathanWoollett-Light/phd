@@ -2,6 +2,7 @@
 
 ### thoughts
 
+- DVS Cifar is a dataset worth looking at
 - look up papers if having a synapse delay is really fundementally different to having weight
 - look into triton
 - look into spiking jelly
