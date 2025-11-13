@@ -2,15 +2,15 @@
 
 ### thoughts
 
+- is it worth being a volunteer writer for open neuromorphic, I should probably introduce this discord to other people in bist
+- my nn gradient issues, debugging tracing pytorch computational graph
+- seems like SNNs can be trained very deeply (despite surrogate gradient error among other things) if trained correctly (read "Rethinking residual connection in training large-scale spiking neural networks")
 - am I working hard enough? What are some examples or benchmarks I could use to reality test this.
 - look into openzl
-- are there any woring qauntam ml models? what similarities might these have to analogue compute in snns
+- are there any woring qauntam ml models? what similarities might these have to analogue compute in snn
 - extropic AI looks interesting, maybe could run SNN on it https://www.youtube.com/watch?v=Y28JQzS6TlE
-- why is delayed reset good? read papers on this.
-https://www.perplexity.ai/search/in-spiking-neural-networks-in-6CDITtq4Sa2fPNnI17R7Vg
+- why is delayed reset good? read papers on this "AR-LIF: ADAPTIVE RESET LEAKY INTEGRATE-AND-FIRE NEURON FOR SPIKING NEURAL NETWORKS" and commit a PR to snnTorch to add more documentation
 - have different optimizers been tested with SNNs do they have the same effectiveness as with anns (e.g. is adam still generally one of the best).
-- my nn gradient issue
-https://www.perplexity.ai/search/i-have-a-neural-network-librar-TeJwWJGCSaaW7GCNiT82Kg
 
 ### 23/10/2025
 
