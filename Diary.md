@@ -2,6 +2,26 @@
 
 ### thoughts
 
+- focus on bringing plot next thursday
+
+### 13/09
+
+- be aware of york uni phd conference wheres other present their work 1st 3 min talk, 2nd poster, 3rd presentation
+- some headings should be reduced in significance or merged (e.g. metric headings)
+- referencing is bit chaotic, references should be right next to statements, try to make sure in later half references are also thorough
+- for places where i talk about research gaps or areas of interest if i dont or cant reference it should be framed as such "there is potential" rather than making a statement, for opionated sections these can be highlighted with statements like "it appears that..."
+- in categorizing errors categories can be more humble if i say "in the context of this work I will group errors like this"
+- neural network section of background is quite good
+- if i have a few seminal papers in mind that are interesting or counter to the overall narrative, i could highlight them, if i can extract some commonality and commentary that would be good, could use some of these to highlight inflection points or evolution of the field
+- putting tables landscape might help making them more readable
+- can have more explicit summary and conclusion at the end of the various sections (anns, hardware, etc.)
+- for progression meeting training, can put tutorials i followed and discissions and discord etc.
+- for formal review progress report should have question, gap and planned experiment
+- that my writing has become less terse and more narrative is good, but it still being concise is good, current tone is fine
+
+### thoughts
+
+- got email about progression meeting
 - DVS Cifar is a dataset worth looking at
 - look up papers if having a synapse delay is really fundementally different to having weight
 - look into triton
