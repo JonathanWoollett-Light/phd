@@ -2,6 +2,8 @@
 
 ### thoughts
 
+- look into triton
+- look into spiking jelly
 - is it worth being a volunteer writer for open neuromorphic, I should probably introduce this discord to other people in bist
 - my nn gradient issues, debugging tracing pytorch computational graph
 - seems like SNNs can be trained very deeply (despite surrogate gradient error among other things) if trained correctly (read "Rethinking residual connection in training large-scale spiking neural networks")
