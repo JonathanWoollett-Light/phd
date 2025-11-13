@@ -2,6 +2,7 @@
 
 ### thoughts
 
+- look up papers if having a synapse delay is really fundementally different to having weight
 - look into triton
 - look into spiking jelly
 - is it worth being a volunteer writer for open neuromorphic, I should probably introduce this discord to other people in bist
