@@ -3,6 +3,11 @@
 ### thoughts
 
 - focus on bringing plot next thursday
+- error legit might just be that i run snnTorch for all timesteps but only run spiky for one
+- all the charts except 0 and 8 are bad, why would this even be? maybe also post the code i use to do that analysis to see if anyone can spot my error.
+- need to submit formal supervision meeting thing
+- need to pull together docs for progression meeting
+- need to re-write lit review to fit martins suggestions
 
 ### 13/09
 
