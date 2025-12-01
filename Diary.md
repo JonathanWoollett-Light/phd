@@ -1,5 +1,10 @@
 # Diary
 
+### 27/11/2025
+
+- make sure when plotting to avoid hidden steps like image interpolation which can distort data.
+- it is interesting to see both complex plots (spikes over time for all samples) and simpler plots (spikes over time for 1 sample, or spikes over time for 1 class).
+
 ### thoughts
 
 - focus on bringing plot next thursday
