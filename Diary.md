@@ -10,7 +10,7 @@
 - need to pull together docs for progression meeting
 - need to re-write lit review to fit martins suggestions
 
-### 13/09
+### 13/11/2025
 
 - be aware of york uni phd conference wheres other present their work 1st 3 min talk, 2nd poster, 3rd presentation
 - some headings should be reduced in significance or merged (e.g. metric headings)
