@@ -1,5 +1,19 @@
 # Diary
 
+### thoughts
+
+- progression meeting stuff
+  ```txt
+  For progression into year 2 of a full-time PhD/EngD or MPhil programme (or equivalent stage of a part-time PhD or MPhil programme), a PGR must demonstrate that they: 
+  have completed any required training (as set in their PGR handbook);
+  are in good standing in terms of responsible research (this includes having completed the Research Integrity Tutorial, obtaining any required ethical approval, and having a data management plan (if relevant));
+  have planned in a realistic fashion the second year (or equivalent) of their research, indicating any risks and how these will be mitigated;
+  have begun to articulate the direction their research is taking and the research questions it addresses;
+  have sufficient acquaintance with the relevant field of knowledge to place their research into context;
+  have sufficient proficiency in the relevant research methods, techniques and theoretical approaches to move their research to the next stage;
+  have started to develop the ability to write in an appropriate academic format, commensurate with the discipline.
+  ```
+
 ### 27/11/2025
 
 - make sure when plotting to avoid hidden steps like image interpolation which can distort data.
