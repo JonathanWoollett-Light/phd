@@ -1,5 +1,7 @@
 # Diary
 
+### 08/12/2025
+
 - progression meeting can be technical but will mostly relate to research direction, acquiantance with subject area and ethical considerarions (includes data safety and privacy considerations) will also be looking for risks (what is doing experiment takes ages? what if experimenrs are too expensive or take ages? what if experiments doesnt give conclusive result? maybe have milestones or secondary research questions)
 - bring more visualizations, try more
 - look at gradient issue aswell, look at the difference, maybe plot against to see if its linear quadratic or exponential (this is example of a risk, should have good reasoning why im doing it. tooling risk)
