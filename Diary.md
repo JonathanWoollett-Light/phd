@@ -1,5 +1,12 @@
 # Diary
 
+### 20/01/2026
+
+- lit review can be seperate document and progress report can be like 2k words
+- give a single test example, possibly cover how covering the experimental surface will work in presentation
+- make presentation short-ish
+- 1 page plan can just be 1 gant chart (possibly with a "i am here" and showing past year of work)
+
 ### 08/12/2025
 
 - progression meeting can be technical but will mostly relate to research direction, acquiantance with subject area and ethical considerarions (includes data safety and privacy considerations) will also be looking for risks (what is doing experiment takes ages? what if experimenrs are too expensive or take ages? what if experiments doesnt give conclusive result? maybe have milestones or secondary research questions)
