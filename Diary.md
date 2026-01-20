@@ -1,5 +1,11 @@
 # Diary
 
+### interview notes
+
+- be prepared to describe research question in depth and give example experiments.
+- Read papers from the lab/group im applying for so I can lie and say that my interests align with their lab
+
+
 ### 20/01/2026
 
 - lit review can be seperate document and progress report can be like 2k words
