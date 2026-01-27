@@ -9,6 +9,10 @@
 - maybe describe the sub research questions as "relevant" but not required or a strict subset of the research question
 - make sure I say the experimental dimensions are not all required but just "the space"
 - make sure to include skillsforge trainings on the trainings doc (and ask some colleagues in group about what they put)
+- questions might be "can you define what you mean by degredarion?", "can you define how a neural network might degrade?", maybe some interviewy technical questions but not super likely. another might be "why did i choose certain tests"
+- will be on field expert questions like "how is methodology", "research methods"
+- I need to make sure I identify risks (e.g. "why use gpu specific language?")
+- they dont want an answer to the question that is "I want it to be faster" but rather be specific so "I want it faster so it enables better throughout and larger sample sizes and more complex networks"
 
 ### interview notes
 
