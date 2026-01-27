@@ -1,5 +1,15 @@
 # Diary
 
+- reduce or remove research questions, they give impression im doing all the sub research questions
+- make sure in the literature review I have a conclusion that justifies my specific research question (can adjust some discussions throughout to fit this)
+- literature review research question framing helps hedge against if some other work covers my research question
+- martin said the progression meeting doc is slightly unusual
+- highlight/evidence research gaps and how it justifies the research questions, make sure the literature review ends on a conclusion justifying the research question
+- maybe change research question to have "& noise"
+- maybe describe the sub research questions as "relevant" but not required or a strict subset of the research question
+- make sure I say the experimental dimensions are not all required but just "the space"
+- make sure to include skillsforge trainings on the trainings doc (and ask some colleagues in group about what they put)
+
 ### interview notes
 
 - be prepared to describe research question in depth and give example experiments.
