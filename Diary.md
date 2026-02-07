@@ -1,5 +1,11 @@
 # Diary
 
+### thoughts
+
+- i wonder how a chip using an SNN for robustness work when getting hit with loads of cosmic radiation, could it outperform traditional methods?
+
+### xx/01/2026
+
 - reduce or remove research questions, they give impression im doing all the sub research questions
 - make sure in the literature review I have a conclusion that justifies my specific research question (can adjust some discussions throughout to fit this)
 - literature review research question framing helps hedge against if some other work covers my research question
