@@ -1,5 +1,13 @@
 # Diary
 
+### 11/02/2026
+
+- See presentation notes for most of what we discussed in meeting
+- Martin emailed marco about TAP and copied me in
+- Maybe for TAP presentation can be bit more technical or more of a conversation, maybe bring same presentation but talk about it more than presenting it (after presenting the intro and background)
+- I should fill in TAP form asap (should remember to check form as marco instead of babar)
+- Try to make programming "need-driven" so I don't get lost spending too much time on learning things that are too slow
+
 ### thoughts
 
 - i wonder how a chip using an SNN for robustness work when getting hit with loads of cosmic radiation, could it outperform traditional methods?
